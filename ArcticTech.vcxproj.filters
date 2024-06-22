@@ -1,0 +1,549 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{0f12e483-8451-467f-89c9-ce6913019ed6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK">
+      <UniqueIdentifier>{67306c6d-1597-4d3f-9dbc-fa85819e4a2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Interfaces">
+      <UniqueIdentifier>{4f2163d1-1a0f-4f53-a45c-b93d91b959a3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Misc">
+      <UniqueIdentifier>{83742cf9-8fb6-4a22-b72d-87ea3d82df40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats">
+      <UniqueIdentifier>{32537258-dc74-44aa-8b11-842e2e8a3cc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Misc">
+      <UniqueIdentifier>{e0ab6e7b-b152-40e0-9099-d08c4118c181}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\Visuals">
+      <UniqueIdentifier>{e2f864bf-f29e-4095-ad8c-d379aaa915c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\AntiAim">
+      <UniqueIdentifier>{81cf97b7-4f9e-4b42-8a99-df73b3fbb31a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cheats\RageBot">
+      <UniqueIdentifier>{c6fab449-9098-45d0-9970-e7660d0427e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SDK\Menu">
+      <UniqueIdentifier>{f9afb880-eaaa-4ed2-aa8e-ad7546a8b982}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Interfaces.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\VMTHook.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Animation.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\NetVars.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Misc\CBasePlayer.cpp">
+      <Filter>SDK\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Misc\CBaseEntity.cpp">
+      <Filter>SDK\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Misc\CBaseCombatWeapon.cpp">
+      <Filter>SDK\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Misc\checksum_crc.cpp">
+      <Filter>SDK\Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Memory.cpp">
+      <Filter>SDK</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Interfaces\IEngineTrace.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Math.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Interfaces\IClientEntityList.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Misc\Vector.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Interfaces\IEffects.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Misc\UtlReference.h">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Config.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Hooks.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Console.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Globals.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Render.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\NetMessages.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Interfaces\CGlobalVarsBase.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Misc\KeyValues.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Misc\UtlStringList.h">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI_backend.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\backends\imgui_impl_dx9.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\backends\imgui_impl_win32.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_draw.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_tables.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImGui\imgui_widgets.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\UI.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\AntiAim\AntiAim.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Lua\Bridge\Bridge.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Lua\Hook\Hook.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Misc\AutoPeek.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Misc\AutoStrafe.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Misc\EventListner.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Misc\Misc.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Misc\Prediction.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\RageBot\AnimationSystem.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\RageBot\AutoWall.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\RageBot\Exploits.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\RageBot\LagCompensation.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\RageBot\Ragebot.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\RageBot\Resolver.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\ShotManager\ShotManager.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\Chams.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\ESP.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\Glow.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\GrenadePrediction.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\SkinChanger.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\World.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Requests.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\PreserveKillfeed.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="Features\Visuals\WeaponIcons.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Interfaces\CGameRules.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Misc\CUserCmd.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="SDK\Interfaces\DebugOverlay.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Utils\Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IClientEntityList.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\VMTHook.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\Vector.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\Color.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\CGlobalVarsBase.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Animation.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IVEngineClient.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\QAngle.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\Matrix.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IBaseClientDLL.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IClientMode.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\CUserCmd.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IAppSystem.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\ICvar.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IConVar.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IPrediction.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\VitualFunction.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\json.hpp">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\ISurface.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IInputSystem.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\NetVars.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\CBaseEntity.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\CBasePlayer.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IPanel.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\CBaseCombatWeapon.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\ILocalize.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\CGlowObjectManager.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IMaterialSystem.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\Studio.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\CInput.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IEngineTrace.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="detours.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IPhysicsSurface.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IGameEvents.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\CCSPlayerResource.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\UtlVector.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\ViewRenderBeams.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\platform.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IVDebugOverlay.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\checksum_crc.h">
+      <Filter>SDK\Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\pe32.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IKeyValuesSystem.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IEngineSound.h">
+      <Filter>SDK\Interfaces</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Memory.h">
+      <Filter>SDK</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Hash.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Math.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\hegrenade.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\inferno.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resources\molotov.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IEffects.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\NetworkStringTable.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Hooks.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Console.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Globals.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Render.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\NetMessages.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\KeyValues.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\IGameTypes.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\UI.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\backends\imgui_impl_dx9.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\backends\imgui_impl_win32.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\freetype\ft2build.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_internal.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imgui_settings.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_rectpack.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_textedit.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImGui\imstb_truetype.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\icons.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\logo.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\mulish_font.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Config.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\AntiAim\AntiAim.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Lua\Bridge\Bridge.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Lua\Hook\Hook.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Lua\Sol.hpp">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Misc\AutoPeek.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Misc\AutoStrafe.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Misc\EventListner.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Misc\Misc.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Misc\Prediction.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\RageBot\AnimationSystem.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\RageBot\AutoWall.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\RageBot\Exploits.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\RageBot\LagCompensation.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\RageBot\Ragebot.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\RageBot\Resolver.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\ShotManager\ShotManager.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\Chams.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\ESP.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\Glow.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\GrenadePrediction.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\SkinChanger.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\WeaponIcons.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\World.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Requests.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\ISteamHTTP.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\PreserveKillfeed.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Features\Visuals\weapon_icons.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\CGameRules.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Misc\MoveMsg.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK\Interfaces\CStaticPropManager.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="detours.lib" />
+  </ItemGroup>
+</Project>
